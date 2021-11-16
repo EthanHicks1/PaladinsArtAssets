@@ -15,5 +15,5 @@ for file_ in list_:
 
 # print(avatar_extensions)
 
-with open('../cache/avatar_extensions.json', 'w', encoding='utf-8') as f:
+with open('avatar_extensions.json', 'w', encoding='utf-8') as f:
     json.dump(avatar_extensions, f, ensure_ascii=False, indent=4)
